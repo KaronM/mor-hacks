@@ -60,13 +60,16 @@
 #questions > li > h4 {
     margin-bottom:1rem;
 }
-#feelings{
+#triggers{
     display:flex;
     flex-direction:row;
     width:30rem;
     overflow-x:scroll;
 }
-#feelings > li {
+#triggers > li {
     padding: 1rem;
 
+}
+.side-bar > *{
+    margin-bottom:1rem;
 }
