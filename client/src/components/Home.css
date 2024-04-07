@@ -1,0 +1,136 @@
+/**/
+*{
+    padding:0;
+    margin:0;
+}
+.top-home-container{
+    display:flex;
+    flex-direction:row;
+}
+.questionnaire-container{
+    padding: 3rem;
+    margin-left:2rem;
+    width:50rem;
+}
+.upcoming-session{
+    padding: 3rem;
+    margin-left:4rem;
+    width:45rem;
+    background-color:#FFCFD3;
+    border-radius:25px;
+
+}
+
+#questionnaire-header{
+    background-color:#F44336;
+    border-radius:25px;
+    padding:1rem;
+    color:white;
+    cursor:pointer;
+}
+#questionnaire-header:hover{
+    background-color:#F42C1E;
+}
+#questionnaire-header > p{
+    font-size:15px;
+}
+#questionnaire-summary{
+    list-style-type: none;
+}
+#questions > li{
+    text-decoration:none;
+    list-style-type: none;
+    margin-top:1rem;
+    background-color:#E6E6E6;
+    border-radius:15px;
+    padding:.2rem;
+}
+#q4 > input, #q4 > label{
+
+    margin-left:1rem;
+}
+#q6 > input, #q6 > label{
+
+    margin-left:1rem;
+}
+#q8 > input, #q8 > label{
+    margin-left:1rem;
+}
+#q11 > input, #q11 > label{
+
+    margin-left:1rem;
+}
+#q13 > input, #q13 > label{
+
+    margin-left:1rem;
+}
+#q14 > input, #q14 > label{
+
+    margin-left:1rem;
+}
+#q16 > input, #q16 > label{
+ 
+    margin-left:1rem;
+}
+#q18 > input, #q18 > label{
+
+    margin-left:1rem;
+}
+#submit-btn{
+    background-color:#F44336;
+    border-radius:25px;
+    padding:1rem;
+    color:white;
+    border:none;
+    margin-left:1rem;
+    cursor:pointer;
+}
+#submit-btn:hover{
+    background-color:#F42C1E;
+}
+#questions > li > h4 {
+    margin-bottom:1rem;
+}
+#questionnaire{
+
+    transition:0.5s;
+}
+#questionnaire-btn{
+    text-decoration:none;
+
+}
+#dashboard-header{
+    font-size:2.5rem;
+}
+.safe-container{
+    background-color:#6F916B;
+    color:white;
+    padding:1rem;
+    border-radius:25px;
+}
+#triggers{
+    display:flex;
+    flex-direction:row;
+    width:30rem;
+    overflow-x:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#triggers > li {
+    padding: 1rem;
+    text-decoration:none;
+    list-style-type:none;
+    cursor:pointer;
+}
+.side-bar > *{
+    margin-bottom:1rem;
+}
+.recommendations-list > li{
+    list-style-type: none;
+}
+
+.main-home-container{
+    display:flex;
+    flex-direction:column;
+
+}
