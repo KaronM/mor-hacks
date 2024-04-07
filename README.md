@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Getting Started with Sickle Cell Anemia Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project aims to create a comprehensive tool for individuals with sickle cell anemia, empowering them to effectively manage their health. Sickle cell anemia is a genetic blood disorder characterized by abnormal hemoglobin, resulting in rigid, sickle-shaped red blood cells that can obstruct blood vessels, leading to pain, fatigue, and organ damage. Managing this condition presents significant challenges due to the unpredictable nature of pain crises, which can occur at any time and in any location.
 
-## Available Scripts
+## Problem Statement
 
-In the project directory, you can run:
+Managing health effectively is challenging for individuals with sickle cell anemia. Existing health management apps lack specificity for this condition, hindering symptom tracking, medication adherence, and crisis prediction. Additionally, daily life hurdles, such as maintaining regular activities and strained interpersonal relationships, further complicate management.
 
-### `npm start`
+## Solution Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Sickle Cell Anemia Management App seeks to address these challenges by providing a personalized assistant for individuals with sickle cell anemia. Key features include:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Symptom Tracking: Log and track symptoms to monitor health status.
+Medication Adherence: Receive reminders and track medication intake for consistency.
+Crisis Prediction: Predictive analysis based on symptom tracking to anticipate health crises.
+Triggers Analysis: Identify potential triggers associated with symptoms and crisis for preventive lifestyle adjustments.
+Communication: Facilitate secure communication with healthcare providers and access test results.
+Community Support/Educational Resources: Provide tips for effective self-management, educational resources on sickle cell anemia, and a platform to connect with other users for support and sharing experiences.
+Meal and Hydration Management: Offer nutritional guidance and hydration tracking with reminders.
+Brain Scan: Schedule brain scans based on stroke risk, set reminders for appointments, and view past and upcoming scan schedules and results.
+Emergency Information: Access emergency contact information and guidance on crisis management.
 
-### `npm test`
+## Proposed Layout for the App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.Home Screen: Overview of main features and access to various functionalities.
+2.Symptom Tracking: Input fields to log and track symptoms.
+3.Medication Adherence: Reminders to take medications and track medication intake.
+4.Crisis Prediction: Predictive analysis and recommendations for preventive measures.
+5.riggers Analysis: Interactive interface to log potential triggers, graphical representation of trigger data, and lifestyle adjustment recommendations.
+6.Communication: Communication with healthcare providers, secure file-sharing for medical documents, and access to test results.
+7.ommunity Support/Educational Resources: Tips for effective self-management, resources on sickle cell anemia, and interface to connect with other users.
+8.Meal and Hydration Management: Nutritional guidance and hydration tracker with reminders.
+9.Brain Scan: Schedule brain scans, set reminders for appointments, and view scan schedules and results.
+10.Emergency Information: Access emergency contacts and guidance on crisis management.
+By providing these features, the app aims to enhance health management, ultimately improving the overall well-being and quality of life for individuals with sickle cell anemia
