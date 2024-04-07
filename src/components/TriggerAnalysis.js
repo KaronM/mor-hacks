@@ -54,6 +54,7 @@ const TriggerDetails = () => {
   
   return (
     <div> 
+      <form>
       <h2>Trigger Details</h2>
       <label>
         Type:
@@ -96,6 +97,8 @@ const TriggerDetails = () => {
         <textarea value={notes} onChange={NotesChange}></textarea>
       </label>
       </div>
+      <button type="submit" id="submit">Submit</button>
+      </form>
     </div>
   );
 }
