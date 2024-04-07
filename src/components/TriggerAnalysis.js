@@ -1,19 +1,6 @@
 import React, { useState } from 'react';
 
-const HealthInfo = () => {
-    
-    return (
-        <div>
-             <p>In HealthInfo!</p>
-        </div>
-    );
-};
-
-export default HealthInfo;
-
-import React, { useState } from 'react';
-
-export function TriggerAnalysis() {
+const TriggerAnalysis = () => {
   const [feeling, setFeeling] = useState('');
   const Emoji = [
     { label: "Sad", emoji: "😢" },
@@ -41,7 +28,7 @@ export function TriggerAnalysis() {
   );
 }
 
-export function TriggerDetails() {
+const TriggerDetails = () => {
   const [type, setType] = useState('');
   const [severity, setSeverity] = useState('');
   const [environmentalFactors, setEnvironmentalFactors] = useState('');
@@ -112,3 +99,5 @@ export function TriggerDetails() {
     </div>
   );
 }
+
+export {TriggerAnalysis, TriggerDetails};
