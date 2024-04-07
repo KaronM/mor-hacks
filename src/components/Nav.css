@@ -43,45 +43,56 @@
 .navigation-btns > li:hover {  
     background-color:#D63E3E;
     fill:white;
+    width:4rem;
+    height:4rem;
+    transition:0.5s;
 }
-
+/*
+#home-btn:hover, #symptom-btn:hover, #chat-btn:hover, #network-btn:hover{
+    
+}
+*/
 /*home button*/
 #home-btn{
     width:3rem;
-    height:5rem;
-    border-radius:25px;
-    
+    height:3rem;
+
 }
 /*symptom/statistics button*/
 #symptom-btn{
     width:3rem;
-    height:5rem;
-    border-radius:25px;
+    height:3rem;
+    transition:0.5s;
 }
 /*chat button*/
 #chat-btn{
     width:3rem;
-    height:5rem;
-    border-radius:25px;
+    height:3rem;
+    transition:0.5s;
+
 }
 /*network button*/
 #network-btn{
     width:3rem;
-    height:5rem;
-    border-radius:25px;
+    height:3rem;
+    transition:0.5s;
+
 }
 /*profile button*/
 #profile-btn{
     width:3rem;
-    height:5rem;
+    height:3rem;
     margin-top:1rem;
     border-radius:25px;
     float:right;
     padding:1rem;
     transition:0.5s;
+    
 }
 
 #profile-btn:hover{
     background-color:#D63E3E;
+    width:4rem;
+    height:4rem;
 }
 
