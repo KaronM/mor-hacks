@@ -19,9 +19,9 @@ app.post('/inputEmail', async (req, res) => {
 
         // Prepare the data to be sent to Kintone
         const data = {
-            app: 1, // Replace with your Kintone app ID
+            app: 1,
             record: {
-                email: { value: email } // Assuming the field name for email in Kintone is "email"
+                email: { value: email } 
             }
         };
 
