@@ -15,8 +15,8 @@ const Resources = () => {
             <br></br>
             <h2>Sickle cell Triggers</h2>
             <br></br>
-            <p>Exposures to  Extreme cold temperatures can reduce blood flow causing pain crises. Exposure to extreme heat along with dehydration can increase the vicosity of blood and promte sickling of red blood cells; which also leads to pain crises. </p>
-            <p>Emotinal or physical stress such as intense physical activity are also triggers. An extensive amout of physical activity can lead to muscle fatigueand increase the demand for oxygen; emotinal stress can lead to te production of stress harmones, all of this can promote sickleing of red blood cells and pian crises.  </p>
+            <p>Exposure to extreme temperatures can be troubling for those with sickle cell disease. When it's too cold, blood flow slows down, leading to painful crisis. On the flip side, temperatures too hot without enough water thickens the blood, promoting the sickling of red blood cells and more pain. </p>
+            <p>But it's not just the weather. Both physical and emotional stress can also trigger pain crisis. Too much physical activity tires out muscles and makes the body demand more oxygen, while emotional stress releases hormones that can worsen sickle cell symptoms.</p>
              
         </div>
     );
