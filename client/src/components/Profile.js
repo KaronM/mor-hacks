@@ -4,7 +4,6 @@ import { auth } from "../firebase";
 
 const Profile = () => {
   const [currentUser, setCurrentUser] = useState(null);
-  const [showSidebar, setShowSidebar] = useState(false);
 
   useEffect(() => {
     // Update currentUser when authentication state changes

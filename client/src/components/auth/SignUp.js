@@ -10,7 +10,21 @@ const SignUp = () => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        console.log(userCredential);
+        // After successfully signing up the user, call the backend endpoint to input the email
+        fetch('http://localhost:3001/inputEmail', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email }) // Send the email to the backend server
+        })
+          .then(response => response.json())
+          .then(data => {
+            console.log(data);
+          })
+          .catch(error => {
+            console.error('Error inputting email:', error);
+          });
       })
       .catch((error) => {
         console.log(error);
