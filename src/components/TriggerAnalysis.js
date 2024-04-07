@@ -19,7 +19,8 @@ const TriggerAnalysis = () => {
       <p>How are you feeling?</p>
       <div>
         {Emoji.map((emotion, index) => (
-          <button key={index} onClick={() => Feeling(emotion.label)}>
+          <button style={{margin:'1rem', border:'none',padding:'.5rem',
+          cursor:'pointer', borderRadius:'15px'}} key={index} onClick={() => Feeling(emotion.label)}>
             {emotion.emoji} {emotion.label}
           </button>
         ))}
@@ -58,7 +59,7 @@ const TriggerDetails = () => {
       <h2>Trigger Details</h2>
       <label>
         Type:
-        <select value={type} onChange={TypeChange}>
+        <select value={type} onChange={TypeChange} style={{margin:"1rem", padding:".3rem"}}>
           <option value="">Select Type</option>
           <option value="Weather conditions">Weather conditions</option>
           <option value="Physical activity">Physical activity</option>
@@ -71,7 +72,7 @@ const TriggerDetails = () => {
 
       <label>
         Severity:
-        <select value={severity} onChange={SeverityChange}>
+        <select value={severity} onChange={SeverityChange} style={{margin:"1rem", padding:".3rem"}}>
           <option value="">Select Severity</option>
           <option value="Very severe">Very severe</option>
           <option value="Severe">Severe</option>
@@ -83,7 +84,7 @@ const TriggerDetails = () => {
 
       <label>
         EnvironmentalFactors:
-        <select value = {severity} onChange={EnvironmentalFactorsChange}>
+        <select value = {severity} onChange={EnvironmentalFactorsChange}  style={{margin:"1rem", padding:".3rem"}}>
             <option value="">Select EnvironmentalFactors</option>
             <option value="Temperature">Temperature</option>
             <option value="Noise levels">Noise levels</option>
@@ -94,10 +95,10 @@ const TriggerDetails = () => {
       <div>
       <label>
         Notes:
-        <textarea value={notes} onChange={NotesChange}></textarea>
+        <textarea value={notes} onChange={NotesChange} placeholder="enter notes"></textarea>
       </label>
       </div>
-      <button type="submit" id="submit">Submit</button>
+      <button type="submit" id="submit"  style={{margin:"1rem", padding:".7rem", borderRadius:"15px",border:"none"}}>Submit</button>
       </form>
     </div>
   );
