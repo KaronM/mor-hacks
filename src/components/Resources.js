@@ -16,7 +16,7 @@ const Resources = () => {
             <h2>Sickle cell Triggers</h2>
             <br></br>
             <p>Exposure to extreme temperatures can be troubling for those with sickle cell disease. When it's too cold, blood flow slows down, leading to painful crisis. On the flip side, temperatures too hot without enough water thickens the blood, promoting the sickling of red blood cells and more pain. </p>
-            <p>But it's not just the weather. Both physical and emotional stress can also trigger pain crisis. Too much physical activity tires out muscles and makes the body demand more oxygen, while emotional stress releases hormones that can worsen sickle cell symptoms.</p>
+            <p>But it's not just the weather. Both physical and emotional stress can also trigger pain crisis. Too much physical activity tires out muscles and makes the body demand more oxygen, while emotional stress releases hormones that can worsen sickle cell symptoms... <a href="https://www.nhlbi.nih.gov/health/sickle-cell-disease/health-effects" >Learn more</a> </p>
              
         </div>
     );
