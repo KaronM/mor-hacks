@@ -3,3 +3,85 @@
     padding:0;
     margin:0;
 }
+.main-home-container{
+    display:flex;
+    flex-direction:row;
+}
+.questionnaire-container{
+    padding: 3rem;
+    margin-left:2rem;
+    width:50rem;
+}
+
+#questionnaire-header{
+    background-color:blue;
+    padding:1rem;
+}
+#questionnaire-header > p{
+    font-size:15px;
+}
+#questions > li{
+    text-decoration:none;
+    list-style-type: none;
+    margin-top:1rem;
+}
+#q4 > input, #q4 > label{
+
+    margin-left:1rem;
+}
+#q6 > input, #q6 > label{
+
+    margin-left:1rem;
+}
+#q8 > input, #q8 > label{
+ 
+    margin-left:1rem;
+}
+#q11 > input, #q11 > label{
+
+    margin-left:1rem;
+}
+#q13 > input, #q13 > label{
+
+    margin-left:1rem;
+}
+#q14 > input, #q14 > label{
+
+    margin-left:1rem;
+}
+#q16 > input, #q16 > label{
+ 
+    margin-left:1rem;
+}
+#q18 > input, #q8 > label{
+
+    margin-left:1rem;
+}
+#questions > li > h4 {
+    margin-bottom:1rem;
+}
+#dashboard-header{
+    font-size:2.5rem;
+}
+.safe-container{
+    background-color:green;
+    padding:1rem;
+    border-radius:25px;
+}
+#triggers{
+    display:flex;
+    flex-direction:row;
+    width:30rem;
+    overflow-x:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#triggers > li {
+    padding: 1rem;
+    text-decoration:none;
+    list-style-type:none;
+    cursor:pointer;
+}
+.side-bar > *{
+    margin-bottom:1rem;
+}
