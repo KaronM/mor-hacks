@@ -10,7 +10,8 @@ class Home extends React.Component{
         return(
             <div className="main-home-container">
                 <div className="questionnaire-container">
-                    <h2 id="questionnaire-header">First-Time Questionnaire <p>*must take to access features</p></h2>
+                <details id="questionnaire-drop-down">      
+                <summary><h2 id="questionnaire-header">First-Time Questionnaire <p>*must take to access features</p></h2></summary>
                     <form id="questionnaire" action="">
                         <ul id="questions"> 
                             <li id="q1"><label for="firstName"><h4>Q1. First Name</h4></label><input type="text" id="firstName" placeholder="enter first name" required/></li>
@@ -64,39 +65,45 @@ class Home extends React.Component{
                             <li id="submit-container"><input type="submit" required></input></li>
                         </ul>
                     </form>
+                    </details>
                 </div>
                 <div className="side-bar">
-                    <h1>Welcome to your Dashboard</h1>
+                    <h1 id="dashboard-header">Welcome to your Dashboard!</h1>
 
                     <div className="safe-container">
-                        <h3 id="">Safe!</h3>
+                        <h3 id="safe-heading">Safe!</h3>
                         <p>No predicted crisis based on analysis from your symptoms</p>
                     <h3><a id="see-more">See More </a></h3>
                     </div>
                     <h2 id="triggers-header">Trigger Analysis <p>must complete First-Time Questionnaire!</p></h2>
                     <h3>How are you feeling?</h3>
                     <ul id="triggers">
-                        <li><div id="happy">Happy-Img</div><label for="happy">Happy</label></li>
-                        <li><div id="calm">Calm-Img</div><label for="calm">Calm</label></li>
-                        <li><div id="manic">Manic-Img</div><label for="manic">Manic</label></li>
-                        <li><div id="angry">Angry-Img</div><label for="angry">Angry</label></li>
-                        <li><div id="terrified">Terrified-Img</div><label for="terrified">Terrified</label></li>
-                        <li><div id="anxious">anxious-Img</div><label for="anxious">Anxious</label></li>
+                        <li><div id="happy"><button id="happy-btn">Happy-Img</button></div><label for="happy">Happy</label></li>
+                        <li><div id="calm"><button id="calm-btn">Calm-Img</button></div><label for="calm">Calm</label></li>
+                        <li><div id="manic"><button id="manic-btn">Manic-Img</button></div><label for="manic">Manic</label></li>
+                        <li><div id="angry"><button id="angry-btn">Angry-Img</button></div><label for="angry">Angry</label></li>
+                        <li><div id="terrified" ><button id="terrified-btn">Terrified-Img</button></div><label for="terrified">Terrified</label></li>
+                        <li><div id="anxious"><button id="anxious-btn">anxious-Img</button></div><label for="anxious">Anxious</label></li>
                     </ul>
                     <h3>Trigger Details</h3>
                     <form action="">
-                        <select placeholder="Type"></select>
+                        <select name="severity"><option value="mild">mild</option><option value="moderate">moderate</option>
+        <option value="severe">severe</option></select>
                         <input type="datetime-local"></input>
                         <input type="text" placeholder="Notes.."></input>
-                        <button type="submit">Track</button>
+                        <button type="submit2" id="track-btn">Track</button>
                     </form>
                     <div><h2>Recommendations</h2></div>
-                    <ul className="recommendations-list"><details><summary>Stay Hydrated</summary><p>Drink of plenty of water</p></details>
+                    <ul className="recommendations-list"><li><details><summary>Stay Hydrated</summary><p>Drink of plenty of water</p></details></li>
                     </ul>
                 </div>
             </div>
+
+
         );
     }
 }
+
+
 
 export default Home;
