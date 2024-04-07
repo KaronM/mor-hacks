@@ -47,33 +47,33 @@
 
 /*home button*/
 #home-btn{
-    width:4rem;
+    width:3rem;
     height:5rem;
     border-radius:25px;
     
 }
 /*symptom/statistics button*/
 #symptom-btn{
-    width:4rem;
+    width:3rem;
     height:5rem;
     border-radius:25px;
 }
 /*chat button*/
 #chat-btn{
-    width:4rem;
+    width:3rem;
     height:5rem;
     border-radius:25px;
 }
 /*network button*/
 #network-btn{
-    width:4rem;
+    width:3rem;
     height:5rem;
     border-radius:25px;
 }
 /*profile button*/
 #profile-btn{
-    width:4rem;
-    height:6rem;
+    width:3rem;
+    height:5rem;
     margin-top:1rem;
     border-radius:25px;
     float:right;
