@@ -40,11 +40,19 @@ const App = () => {
 
   return (
     <div className="App">
-      {!isAuthenticated && <SignIn onAuthenticationChange={handleAuthenticationChange} />}
-      {!isAuthenticated && <SignUp onAuthenticationChange={handleAuthenticationChange} />}
-      {isAuthenticated && <Dashboard user={authUser} onAuthenticationChange={handleAuthenticationChange} onSignOut={handleSignOut} />}
+      {!isAuthenticated ? (
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', backgroundColor: 'lightblue' }}>
+          <div style={{ textAlign: 'center', color: 'black' }}> 
+            <SignIn onAuthenticationChange={handleAuthenticationChange} />
+            <SignUp onAuthenticationChange={handleAuthenticationChange} />
+          </div>
+        </div>
+      ) : (
+        <Dashboard user={authUser} onAuthenticationChange={handleAuthenticationChange} onSignOut={handleSignOut} />
+      )}
     </div>
   );
+  
 };
 
 export default App;

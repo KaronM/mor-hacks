@@ -1,7 +1,8 @@
 import './Nav.css' 
 import React from 'react';
 import Home from './Home';
-import HealthInfo from './HealthInfo';
+//import HealthInfo from './HealthInfo';
+import TriggerAnalysis from './TriggerAnalysis';
 import Chat from './Chat';
 import Resources from './Resources';
 import Profile from './Profile';
@@ -45,7 +46,7 @@ class NavBar extends React.Component{
                             </svg>
                         </li> 
 
-                        <li id="nav-btn2" onClick={() => this.handleSelectView("HealthInfo")}>
+                        <li id="nav-btn2" onClick={() => this.handleSelectView("TriggerAnalysis")}>
                             <svg id="symptom-btn" xmlns="http://www.w3.org/2000/svg" version="1.0" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
 
                                 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#C6C6C6" stroke="none">
@@ -96,7 +97,7 @@ class NavBar extends React.Component{
                 </div>
                 
                 {selectedView === "Home" && <Home />}
-                {selectedView === "HealthInfo" && <HealthInfo />}
+                {selectedView === "TriggerAnalysis" && <TriggerAnalysis />}
                 {selectedView === "Chat" && <Chat />}
                 {selectedView === "Resources" && <Resources />}
                 {selectedView === "Profile" && <Profile />}

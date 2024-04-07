@@ -32,8 +32,8 @@ const SignUp = () => {
   };
 
   return (
-    <div className="sign-in-container">
-      <form onSubmit={signUp}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '25vh', backgroundColor: 'lightblue' }}>
+      <form onSubmit={signUp} style={{ textAlign: 'center', backgroundColor: 'white', padding: '20px', borderRadius: '8px' }}>
         <h1>New User Create Account</h1>
         <input
           type="email"
@@ -41,16 +41,19 @@ const SignUp = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         ></input>
+        <br />
         <input
           type="password"
           placeholder="Enter your password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         ></input>
+        <br />
         <button type="submit">Sign Up</button>
       </form>
     </div>
   );
+  
 };
 
 export default SignUp;
